@@ -22,8 +22,8 @@ public class MapGenerator {
                     g.fillRect(j*bricksWidth+80, i*bricksHeight+50, bricksWidth,bricksHeight);
 
                     g.setStroke(new BasicStroke(3));
-                    g.setColor(Color.BLACK);
-                    g.fillRect(j*bricksWidth+80, i*bricksHeight+50,bricksWidth,bricksHeight);
+                    g.setColor(Color.black);
+                    g.drawRect(j*bricksWidth+80, i*bricksHeight+50,bricksWidth,bricksHeight);
                 }
             }
         }
